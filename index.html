@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" type="text/css" href="semantic/dist/semantic.min.css">
+    <link rel="stylesheet" href="css/jquery.mCustomScrollbar.css" />
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+    <script src="semantic/dist/semantic.min.js"></script>
+    <script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
+</head>
+
+<body>
+    <div class="header">
+    </div>
+    <table align='center'>
+        <tr>
+            <td style='width: 75%;'>
+                <div id='origin' class='blackborder'>
+                    <h2 id='title' align='center'>My First Heading</h2>
+                    <div class="half mCustomScrollbar" data-mcs-theme="inset-2-dark">
+                        <p id='content'>My first paragraph.</p>
+                    </div>
+                    <div class="ui form">
+                        <div class="field">
+                            <h3><br>Editing Area</h3>
+                            <textarea rows="10" style="font-size: 120%;"></textarea>
+                            <grammarly-btn>
+                                <div data-reactroot="" class="_e725ae-textarea_btn _e725ae-anonymous _e725ae-not_focused">
+                                    <div class="_e725ae-transform_wrap">
+                                        <div title="Protected by Grammarly" class="_e725ae-status">&nbsp;</div>
+                                    </div>
+                                </div>
+                            </grammarly-btn>
+                        </div>
+                    </div>
+                </div>
+            </td>
+            <td>
+                <div>
+                    <div id='history' class="ui styled accordion">
+                    </div>
+                    <div class="ui animated button" tabindex="0" onclick="nextstage()">
+                        <div class="visible content">Next</div>
+                        <div class="hidden content">
+                            <i class="right arrow icon"></i>
+                        </div>
+                    </div>
+                    <!-- <div class="ui huge star rating"></div> -->
+                </div>
+            </td>
+        </tr>
+    </table>
+    <div class="footnote">
+    </div>
+
+    <script type="text/javascript" src="js/script.js"></script>
+    <script type="text/javascript" src="js/ui.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<w:document
+    xmlns:wpc="http://schemas.microsoft.com/office/word/2010/wordprocessingCanvas"
+    xmlns:mo="http://schemas.microsoft.com/office/mac/office/2008/main"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:mv="urn:schemas-microsoft-com:mac:vml"
+    xmlns:o="urn:schemas-microsoft-com:office:office"
+    xmlns:r="http://schemas.openxmlformats.org/officeDocument/2006/relationships"
+    xmlns:m="http://schemas.openxmlformats.org/officeDocument/2006/math"
+    xmlns:v="urn:schemas-microsoft-com:vml"
+    xmlns:wp14="http://schemas.microsoft.com/office/word/2010/wordprocessingDrawing"
+    xmlns:wp="http://schemas.openxmlformats.org/drawingml/2006/wordprocessingDrawing"
+    xmlns:w10="urn:schemas-microsoft-com:office:word"
+    xmlns:w="http://schemas.openxmlformats.org/wordprocessingml/2006/main"
+    xmlns:w14="http://schemas.microsoft.com/office/word/2010/wordml"
+    xmlns:w15="http://schemas.microsoft.com/office/word/2012/wordml"
+    xmlns:wpg="http://schemas.microsoft.com/office/word/2010/wordprocessingGroup"
+    xmlns:wpi="http://schemas.microsoft.com/office/word/2010/wordprocessingInk"
+    xmlns:wne="http://schemas.microsoft.com/office/word/2006/wordml"
+    xmlns:wps="http://schemas.microsoft.com/office/word/2010/wordprocessingShape" mc:Ignorable="w14 w15 wp14">
+    <w:background w:color="FFFFFF"/>
+    <w:body>
+        <w:p w14:paraId="1CD0E27E" w14:textId="77777777" w:rsidR="009E1BD3" w:rsidRDefault="009E1BD3">
+            <w:pPr>
+                <w:jc w:val="center"/>
+                <w:rPr>
+                    <w:b/>
+                </w:rPr>
+            </w:pPr>
+        </w:p>
+        <w:p w14:paraId="148DCCEC" w14:textId="77777777" w:rsidR="009E1BD3" w:rsidRDefault="00FD63F8" w:rsidP="00A16F61">
+            <w:pPr>
+                <w:jc w:val="center"/>
+                <w:outlineLvl w:val="0"/>
+            </w:pPr>
+            <w:commentRangeStart w:id="0"/>
+            <w:r>
+                <w:rPr>
+                    <w:rFonts w:eastAsia="Arial"/>
+                    <w:b/>
+                </w:rPr>
+                <w:t>T</w:t>
+            </w:r>
+            <w:commentRangeEnd w:id="0"/>
+            <w:r>
+                <w:commentReference w:id="0"/>
+            </w:r>
+            <w:r>
+                <w:rPr>
+                    <w:rFonts w:eastAsia="Arial"/>
+                    <w:b/>
+                </w:rPr>
+                <w:t>he best way of reducing stress</w:t>
+            </w:r>
+        </w:p>
+        <w:p w14:paraId="1EFB48B6" w14:textId="77777777" w:rsidR="009E1BD3" w:rsidRDefault="009E1BD3">
+            <w:pPr>
+                <w:jc w:val="center"/>
+            </w:pPr>
+            <w:bookmarkStart w:id="1" w:name="_gjdgxs" w:colFirst="0" w:colLast="0"/>
+            <w:bookmarkEnd w:id="1"/>
+        </w:p>
+        <w:p w14:paraId="292132D4" w14:textId="77777777" w:rsidR="009E1BD3" w:rsidRDefault="00FD63F8">
+            <w:r>
+                <w:rPr>
+                    <w:rFonts w:eastAsia="Arial"/>
+                    <w:b/>
+                </w:rPr>
+                <w:tab/>
+            </w:r>
+            <w:r>
+                <w:rPr>
+                    <w:rFonts w:eastAsia="Arial"/>
+                </w:rPr>
+                <w:t xml:space="preserve">Stress is a common issue that most people have problems </w:t>
+            </w:r>
+            <w:del w:id="2" w:author="D" w:date="2016-09-04T13:32:00Z">
+                <w:r>
+                    <w:rPr>
+                        <w:rFonts w:eastAsia="Arial"/>
+                    </w:rPr>
+                    <w:delText>to deal</w:delText>
+                </w:r>
+            </w:del>
+            <w:ins w:id="3" w:author="D" w:date="2016-09-04T13:32:00Z">
+                <w:r>
+                    <w:rPr>
+                        <w:rFonts w:eastAsia="Arial"/>
+                    </w:rPr>
+                    <w:t>dealing</w:t>
+                </w:r>
+            </w:ins>
+            <w:r>
+                <w:rPr>
+                    <w:rFonts w:eastAsia="Arial"/>
+                </w:rPr>
+                <w:t xml:space="preserve"> with</w:t>
+            </w:r>
+            <w:del w:id="4" w:author="D" w:date="2016-09-04T13:32:00Z">
+                <w:r>
+                    <w:rPr>
+                        <w:rFonts w:eastAsia="Arial"/>
+                    </w:rPr>
+                    <w:delText xml:space="preserve"> it</w:delText>
+                </w:r>
+            </w:del>
+            <w:r>
+                <w:rPr>
+                    <w:rFonts w:eastAsia="Arial"/>
+                </w:rPr>
+                <w:t xml:space="preserve">. Therefore, </w:t>
+            </w:r>
+            <w:del w:id="5" w:author="D" w:date="2016-09-04T13:32:00Z">
+                <w:r>
+                    <w:rPr>
+                        <w:rFonts w:eastAsia="Arial"/>
+                    </w:rPr>
+                    <w:delText xml:space="preserve">to reduce </w:delText>
+                </w:r>
+            </w:del>
+            <w:ins w:id="6" w:author="D" w:date="2016-09-04T13:32:00Z">
+                <w:r>
+                    <w:rPr>
+                        <w:rFonts w:eastAsia="Arial"/>
+                    </w:rPr>
+                    <w:t xml:space="preserve">reducing </w:t>
+                </w:r>
+            </w:ins>
+            <w:r>
+                <w:rPr>
+                    <w:rFonts w:eastAsia="Arial"/>
+                </w:rPr>
+                <w:t>stress</w:t>
+            </w:r>
+            <w:ins w:id="7" w:author="D" w:date="2016-09-04T13:32:00Z">
+                <w:r>
+                    <w:rPr>
+                        <w:rFonts w:eastAsia="Arial"/>
+                    </w:rPr>
+                    <w:t xml:space="preserve"> is important</w:t>
+                </w:r>
+            </w:ins>
+            <w:r>
+                <w:rPr>
+                    <w:rFonts w:eastAsia="Arial"/>
+                </w:rPr>
+                <w:t xml:space="preserve">, </w:t>
+            </w:r>
+            <w:commentRangeStart w:id="8"/>
+            <w:ins w:id="9" w:author="D" w:date="2016-09-04T13:32:00Z">
+                <w:r>
+                    <w:rPr>
+                        <w:rFonts w:eastAsia="Arial"/>
+                    </w:rPr>
+                    <w:t xml:space="preserve">and </w:t>
+                </w:r>
+            </w:ins>
+            <w:del w:id="10" w:author="D" w:date="2016-09-04T13:32:00Z">
+                <w:r>
+                    <w:rPr>
+                        <w:rFonts w:eastAsia="Arial"/>
+                    </w:rPr>
+                    <w:delText>the followings are</w:delText>
+                </w:r>
+            </w:del>
+            <w:ins w:id="11" w:author="D" w:date="2016-09-04T13:33:00Z">
+                <w:r>
+                    <w:rPr>
+                        <w:rFonts w:eastAsia="Arial"/>
+                    </w:rPr>
+                    <w:t>below I explain</w:t>
+                </w:r>
+            </w:ins>
+            <w:r>
+                <w:rPr>
+                    <w:rFonts w:eastAsia="Arial"/>
+                </w:rPr>
+                <w:t xml:space="preserve"> my perspective about the best way of reducing stress</w:t>
+            </w:r>
+            <w:ins w:id="12" w:author="D" w:date="2016-09-04T13:33:00Z">
+                <w:r>
+                    <w:rPr>
+                        <w:rFonts w:eastAsia="Arial"/>
+                    </w:rPr>
+                    <w:t>, which is a combination of activities and attitude</w:t>
+                </w:r>
+            </w:ins>
+            <w:r>
+                <w:rPr>
+                    <w:rFonts w:eastAsia="Arial"/>
+                </w:rPr>
+                <w:t>.</w:t>
+            </w:r>
+            <w:commentRangeEnd w:id="8"/>
+            <w:r>
+                <w:commentReference w:id="8"/>
+            </w:r>
+        </w:p>
+        <w:p w14:paraId="0DBC0A90" w14:textId="77777777" w:rsidR="009E1BD3" w:rsidRDefault="009E1BD3">
+            <w:bookmarkStart w:id="13" w:name="_GoBack"/>
+            <w:bookmarkEnd w:id="13"/>
+        </w:p>
+        <w:p w14:paraId="01EDDD6E" w14:textId="197747D5" w:rsidR="009E1BD3" w:rsidRDefault="00FD63F8">
+            <w:r>
+                <w:rPr>
+                    <w:rFonts w:eastAsia="Arial"/>
+                </w:rPr>
+                <w:tab/>
+                <w:t>As a conclusion, the best way to reduce stress isn’t hard to find out. Entertainment and Exercise are both effective ways. The key is to do something that makes you feel better and enjoys it. In this way, in better mood and feeling relax can reduce your stress and make you no more stressful.</w:t>
+            </w:r>
+        </w:p>
+        <w:p w14:paraId="1D547165" w14:textId="77777777" w:rsidR="009E1BD3" w:rsidRDefault="009E1BD3">
+            <w:pPr>
+                <w:jc w:val="center"/>
+            </w:pPr>
+        </w:p>
+        <w:p w14:paraId="4B8EFE85" w14:textId="77777777" w:rsidR="009E1BD3" w:rsidRDefault="009E1BD3"/>
+        <w:sectPr w:rsidR="009E1BD3">
+            <w:pgSz w:w="12240" w:h="15840"/>
+            <w:pgMar w:top="1440" w:right="1440" w:bottom="1440" w:left="1440" w:header="0" w:footer="720" w:gutter="0"/>
+            <w:pgNumType w:start="1"/>
+            <w:cols w:space="720"/>
+        </w:sectPr>
+    </w:body>
+</w:document>
