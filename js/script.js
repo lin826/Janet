@@ -7,7 +7,7 @@ function disable(e){
 
 function nextstage(){
   URL = parseInt(getQueryVariable('str'))+1;
-  window.location.replace(window.location.protocol+window.location.hostname+window.location.pathname+'?str='+URL);
+  window.location.replace(window.location.pathname+'?str='+URL);
 }
 function getQueryVariable(variable)
 {
