@@ -4,11 +4,8 @@
   width: 80%;
 }
 #origin{
-  line-height: 50px;
   vertical-align: top;
   padding: 20px 10px 10px 10px;
-  /*visibility: hidden;
-  visibility: collapse;*/
 }
 #arrow{
   height: 10px;
@@ -17,15 +14,14 @@
 #content{
   font-size: 120%;
 }
-
 .header{
-  height: 5%;
+  height: 1%;
 }
 .footnote{
-  height: 2%;
+  height: 1%;
 }
 .blackborder{
-  margin: 0px 10px 0px 50px;
+  margin: 10px 10px 0px 50px;
   border: 1px solid #000000;
 }
 .half{

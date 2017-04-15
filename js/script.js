@@ -26,11 +26,7 @@ function finish(){
 
 function nextstage(){
   if($str>2 || $str<0){
-    mod_list = document.getElementsByClassName('mod');
-    for(i=0;i<mod_list.length;i++){
-      if(mod_list[i].getAttribute('class').includes('title'))
-        mod_list[i].style.display = 'inherit';
-    }
+    finish();
     return 0;
   }
   if($str==2){
@@ -66,7 +62,12 @@ function everysecond(){
   else {
     document.getElementById('clock').innerHTML = Math.floor($timer/60)+' min '+$timer%60+' sec';
   }
-  $timer--;
+  if($timer==0){
+    nextstage();
+  }
+  else
+    $timer--;
+
 }
 
 function getQueryVariable(variable)
@@ -155,7 +156,7 @@ function addMod(id,e_type,i_s,i_e,e_title,hist,comment,visibility){
   for(i=i_s;i<=i_e;i++){
     var e = document.getElementById(i.toString())
     e.setAttribute('class',e_type);
-    if(!e_type.includes($str)){
+    if(!visibility){
       e.setAttribute('style','background-color: white;');
     }
   }
@@ -189,11 +190,16 @@ function readJson(file)
         e = json[j];
         index = parseInt(e['modifier'][4]);
         if(e['mod_type']){
-          visibility = (index==$str || $str>2 || $str==-1);
-          addMod(k[index]++,e['modifier'],e['index_start'],e['index_end'],e['mod_type'],e['mod_history'],e['mod_comment'],visibility);
+          if($str>=2 || $str<0){
+            addMod(k[index]++,e['modifier'],e['index_start'],e['index_end'],e['mod_type'],e['mod_history'],e['mod_comment'],true);
+          }
+          else {
+            visibility = (index==$str || $str>2 || $str==-1);
+            addMod(k[index]++,e['modifier'],e['index_start'],e['index_end'],e['mod_type'],e['mod_history'],e['mod_comment'],visibility);
+          }
         }
     }
-    if($str>=2 || $str==-1){
+    if($str>=2 || $str<0){
       btn = document.getElementById('btn_next')
       btn.innerHTML='Finish';
       btn.parentNode.setAttribute('onclick','finish()');
@@ -202,7 +208,8 @@ function readJson(file)
       document.getElementById('version').innerHTML = ++$str;
     }
   });
-  document.getElementById('history').setAttribute('style','height: '+$('#origin').height()+'px;');
+  h = $('#origin').height()-60;
+  document.getElementById('history').setAttribute('style','height: '+h+'px;');
 }
 
 // function canvas_arrow(context, fromx, fromy, tox, toy){
