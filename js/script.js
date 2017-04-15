@@ -262,7 +262,11 @@ var $middle_x = Math.floor(document.getElementById('history').offsetLeft);
 $("#origin").on("mouseover", "span", function () {
   var $t = $(this);
   var $id = parseInt($t.attr('id'));
-  var $this_list = document.getElementsByClassName('mod mod_'+($str-1));
+  if($str<0 || $str>3)
+    var $this_list = document.getElementsByClassName('mod');
+  else {
+    var $this_list = document.getElementsByClassName('mod mod_'+($str-1));
+  }
   for(i=0;i<$this_list.length;i++){
     var i_s = parseInt($this_list[i].getAttribute('i_start'));
     var i_e = parseInt($this_list[i].getAttribute('i_end'));
@@ -276,7 +280,11 @@ $("#origin").on("mouseover", "span", function () {
 $("#origin").on("click", "span", function () {
   var $t = $(this);
   var $id = parseInt($t.attr('id'));
-  var $this_list = document.getElementsByClassName('mod mod_'+($str-1));
+  if($str<0 || $str>3)
+    var $this_list = document.getElementsByClassName('mod');
+  else {
+    var $this_list = document.getElementsByClassName('mod mod_'+($str-1));
+  }
   for(i=0;i<$this_list.length;i++){
     var i_s = parseInt($this_list[i].getAttribute('i_start'));
     var i_e = parseInt($this_list[i].getAttribute('i_end'));
@@ -295,7 +303,11 @@ $("#origin").on("mouseleave", "span", function () {
   $('canvas').remove();
   var $t = $(this);
   var $id = parseInt($t.attr('id'));
-  var $this_list = document.getElementsByClassName('mod mod_'+($str-1));
+  if($str<0 || $str>3)
+    var $this_list = document.getElementsByClassName('mod');
+  else {
+    var $this_list = document.getElementsByClassName('mod mod_'+($str-1));
+  }
   for(i=0;i<$this_list.length;i++){
     var e = $this_list[i];
     var i_s = parseInt(e.getAttribute('i_start'));
