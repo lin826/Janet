@@ -15,13 +15,13 @@ function disable(e){
   }
   e.parentNode.previousSibling.setAttribute('style',"background-color: LightGray;");
   e.parentNode.previousSibling.setAttribute('result',e.innerHTML);
-  // TODO: Send timestamp and the corresponding comment to server.
+  // TODO: Send $time and the corresponding comment to server.
 }
 
 function finish(){
   console.log("Finish");
   return 0;
-  // TODO: Send timestamp and the Edit Area to server.
+  // TODO: Send $time and the Edit Area to server.
 }
 
 function nextstage(){
