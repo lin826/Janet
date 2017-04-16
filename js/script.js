@@ -1,9 +1,23 @@
-readTextFile("data/doc_origin.docx.txt");
-readJson("data/doc_mod.json");
 $str = getQueryVariable('str');
+$txt = getQueryVariable('txt');
+$json = getQueryVariable('json');
 $timer = 60*10; // seconds to count down
 window.setInterval(everysecond, 1000);
 everysecond();
+
+if($txt>0){
+  readTextFile($txt);
+}
+else {
+  readTextFile("data/doc_origin.docx.txt");
+}
+
+if($json>0){
+  readJson($json);
+}
+else {
+  readJson("data/doc_mod.json");
+}
 
 function disable(e){
   e.setAttribute("class",'ui disabled button');
@@ -190,7 +204,7 @@ function readJson(file)
         e = json[j];
         index = parseInt(e['modifier'][4]);
         if(e['mod_type']){
-          if($str>=2 || $str<0){
+          if($str>2 || $str<0){
             addMod(k[index]++,e['modifier'],e['index_start'],e['index_end'],e['mod_type'],e['mod_history'],e['mod_comment'],true);
           }
           else {
