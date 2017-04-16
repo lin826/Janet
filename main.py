@@ -4,11 +4,7 @@ import sys
 
 ORIGINAL = 'data/doc_origin.docx'
 JSON_modlist = 'data/doc_mod.json'
-DOCUMENTS_TO_COMBINE = [
-    'data/differ_paragraph/doc_mod_1.docx',
-    'data/differ_paragraph/doc_mod_2.docx',
-    'data/differ_paragraph/doc_mod_3.docx'
-]
+DOCUMENTS_TO_COMBINE = []
 
 if __name__ == '__main__':
     ORIGINAL = sys.argv[1]

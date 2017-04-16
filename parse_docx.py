@@ -138,5 +138,6 @@ def get_result(ori_f,mod_lf):
     ORIGINAL_txt = ori_f+'.txt'
     global DOCUMENTS_TO_COMBINE
     DOCUMENTS_TO_COMBINE = mod_lf
+    print(mod_lf)
     main_part()
     return ori, result_list

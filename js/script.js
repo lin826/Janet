@@ -1,3 +1,7 @@
+$title = [
+  'Content & Organization','Language use','Machanics','Others'
+]
+
 $str = getQueryVariable('str');
 $txt = getQueryVariable('txt');
 $json = getQueryVariable('json');
@@ -5,19 +9,10 @@ $timer = 60*10; // seconds to count down
 window.setInterval(everysecond, 1000);
 everysecond();
 
-if($txt>0){
-  readTextFile($txt);
-}
-else {
-  readTextFile("data/doc_origin.docx.txt");
-}
-
-if($json>0){
-  readJson($json);
-}
-else {
-  readJson("data/doc_mod.json");
-}
+if($txt>0) readTextFile($txt);
+else readTextFile("data/doc_origin.docx.txt");
+if($json>0) readJson($json);
+else readJson("data/doc_mod.json");
 
 function disable(e){
   e.setAttribute("class",'ui disabled button');
@@ -138,7 +133,14 @@ function addMod(id,e_type,i_s,i_e,e_title,hist,comment,visibility){
   new_e.setAttribute("e_id", e_type[4]);
 
   new_e.appendChild(addElement("i","dropdown icon",' '));
-  new_e.innerHTML += e_type+' #'+id;
+  if(e_type==='mod_0')
+    new_e.innerHTML += $title[0]+' #'+id;
+  else if(e_type==='mod_1')
+    new_e.innerHTML += $title[1]+' #'+id;
+  else if(e_type==='mod_2')
+    new_e.innerHTML += $title[2]+' #'+id;
+  else
+    new_e.innerHTML += $title[3]+' #'+id;
   new_e.appendChild(addElement("div",'ui huge star rating',''));
 
   new_e_2 = document.createElement("div");
