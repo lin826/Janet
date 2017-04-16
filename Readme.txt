@@ -15,4 +15,4 @@
   'json' is the file location of modified history json file generated from step 2.
 
   URL for example:
-      [PATH]/index.html?str=0&txt=data/doc_origin.docx.txt&json=data/doc_mod.json
+      https://janets-lin000.c9users.io/index.html?str=0&txt=data/doc_origin.docx.txt&json=data/doc_mod.json
